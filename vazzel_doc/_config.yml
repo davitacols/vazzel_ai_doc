@@ -1,0 +1,32 @@
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title: Human Body Measurement Using Computer Vision & 3D Modeling  # Updated title
+author: Vazzel AI Community  # Updated author
+logo: logo.png  # Assuming you have a logo file in the root of your project
+
+# Force re-execution of notebooks on each build.
+# See https://jupyterbook.org/content/execute.html
+execute:
+  execute_notebooks: force
+
+# Define the name of the latex output file for PDF builds
+latex:
+  latex_documents:
+    targetname: book.tex
+
+# Add a bibtex file so that we can create citations
+bibtex_bibfiles:
+  - references.bib
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/VazzelAI/human-body-measurement-book  # Update with your project's GitHub repo
+  path_to_book: docs  # Optional path to your book, relative to the repository root
+  branch: main  # Use 'main' if that is your primary branch (could also be 'master')
+
+# Add GitHub buttons to your book
+# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
+html:
+  use_issues_button: true
+  use_repository_button: true

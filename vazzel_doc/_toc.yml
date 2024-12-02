@@ -1,0 +1,21 @@
+format: jb-book
+root: intro
+
+chapters:
+  - file: markdown-notebooks.md
+  - file: markdown.md
+  - file: notebooks.ipynb
+  - file: content/overview
+    title: Overview
+  - file: content/getting_started
+    title: Getting Started 
+  - file: content/project_overview
+    title: Project Overview
+  - file: content/demo
+    title: Demo
+  - file: content/extract_measurement
+    title: Extract Measurement
+  - file: content/inference
+    title: Inference
+  - file: content/utils
+    title: Utils
